@@ -1,3 +1,9 @@
 def alphabetize(arr)
-  # code here
+
+  english = "abcdefghijklmnopqrstuvwxyz"
+  esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
+
+  arr.sort_by do |word|
+    word.tr(esperanto, english)
+  end
 end
