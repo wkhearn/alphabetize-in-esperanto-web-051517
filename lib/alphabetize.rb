@@ -1,5 +1,4 @@
 def alphabetize(arr)
-
   english = "abcdefghijklmnopqrstuvwxyz"
   esperanto = "abcĉdefgĝhĥijĵklmnoprsŝtuŭvz"
 
